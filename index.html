@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data dots</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="mySelect();">
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-12">
+                    <h4 class="text-header text-center mt-5"><strong>ՀՆԱ-ի նկատմամբ պարտքի հարաբերակցությունը %-ով &copy; Sargis Kirakosyan</strong></h4>
+                    <p class="mt-5">Այս ինտերակտիվ աղյուսակում օգտագործվում են Արժույթի Միջազգային հիմնադրամի, Համաշխարհային բանկի, Trading Economics և CEIC Data կայքերի տվյալները Հայաստանի արտաքին, պետական և տնային տնտեսությունների պարտքը այլ երկրների պարտքերի հետ համեմատելու համար: Պարտքի բոլոր երեք ձևերը ներկայացված են ընդհանուր համախառն ներքին արդյունքի (ՀՆԱ)-ի թվից տոկոսներով: Յուրաքանչյուր պղպջակ ներկայացնում է երկրի ընդհանուր պարտքի մեկ տոկոսը: Դուք կարող եք ընտրել տվյալներ Հայաստանի հետ համեմատության համար հինգ տարվա կտրվածքով:</p>
+            </div>
+        </div>
+        <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="mr-auto"></strong>
+            </div>
+            <div class="toast-body">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 countries">
+                <select class="form-control count-select">
+                </select>
+            </div>
+            <div class="col-md-8 ball-list">
+                <ul>
+                    <li>Համախառն արտաքին պարտք</li>
+                    <li>Պետական պարտք</li>
+                    <li>Տնային տնտեսությունների պարտք</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <h4 class="text-header text-center">Հայաստան</h4>
+            </div>
+            <div class="col-md-4">
+                <h4 class="text-header text-center">Վրաստան</h4>
+            </div>
+            <div class="col-md-4">
+                <h4 class="text-header text-center">Ռուսաստան</h4>
+            </div>
+        </div>
+        <div class="row mt-3 mb-5">
+            <p class="line-label">100%</p>
+            <div class="gdp-line">
+            </div>
+
+            <div class="col-md-4 arm"></div>
+            <div class="col-md-4 geo"></div>
+            <div class="col-md-4 rus"></div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

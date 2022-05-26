@@ -1,0 +1,119 @@
+{
+    "years": [
+        {
+            "year": "2014",
+            "debt_data": [
+                {
+                    "name": "Հայաստան",
+                    "external": "74",
+                    "government": "44",
+                    "household": "17"
+                },
+                {
+                    "name": "Վրաստան",
+                    "external": "85",
+                    "government": "36",
+                    "household": "26"
+                },
+                {
+                    "name": "Ռուսաստան",
+                    "external": "29",
+                    "government": "16",
+                    "household": "16"
+                }
+                ]
+        },
+        {
+            "year": "2015",
+            "debt_data": [
+                {
+                    "name": "Հայաստան",
+                    "external": "85",
+                    "government": "49",
+                    "household": "16"
+                },
+                {
+                    "name": "Վրաստան",
+                    "external": "110",
+                    "government": "42",
+                    "household": "27"
+                },
+                {
+                    "name": "Ռուսաստան",
+                    "external": "38",
+                    "government": "17",
+                    "household": "14"
+                }
+            ]
+        },
+        {
+            "year": "2016",
+            "debt_data": [
+                {
+                    "name": "Հայաստան",
+                    "external": "94",
+                    "government": "57",
+                    "household": "16"
+                },
+                {
+                    "name": "Վրաստան",
+                    "external": "111",
+                    "government": "45",
+                    "household": "32"
+                },
+                {
+                    "name": "Ռուսաստան",
+                    "external": "40",
+                    "government": "16",
+                    "household": "14"
+                }
+            ]
+        },
+        {
+            "year": "2017",
+            "debt_data": [
+                {
+                    "name": "Հայաստան",
+                    "external": "92",
+                    "government": "59",
+                    "household": "16"
+                },
+                {
+                    "name": "Վրաստան",
+                    "external": "115",
+                    "government": "45",
+                    "household": "33"
+                },
+                {
+                    "name": "Ռուսաստան",
+                    "external": "33",
+                    "government": "16",
+                    "household": "14"
+                }
+            ]
+        },
+        {
+            "year": "2018",
+            "debt_data": [
+                {
+                    "name": "Հայաստան",
+                    "external": "88",
+                    "government": "56",
+                    "household": "19"
+                },
+                {
+                    "name": "Վրաստան",
+                    "external": "110",
+                    "government": "45",
+                    "household": "36"
+                },
+                {
+                    "name": "Ռուսաստան",
+                    "external": "28",
+                    "government": "15",
+                    "household": "16"
+                }
+            ]
+        }
+    ]
+}

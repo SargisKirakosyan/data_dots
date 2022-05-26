@@ -1,0 +1,77 @@
+.toast {
+    position: absolute!important;
+    float: left;
+    z-index: 10;
+}
+.line-label {
+    transform: rotate(270deg);
+    height: 100px;
+    margin: 100px 0 0;
+    position: absolute;
+}
+.gdp-line {
+    border-left: 5px solid black;    height: 300px;    margin: 5px 0px 0px;    position: absolute;
+}
+.gdp-line::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    height: 5px;
+    margin-left: -15px;
+    transform: rotate(180deg);
+    border-left: 25px solid black;
+    border-radius: 50px;
+}
+.gdp-line::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 5px;
+    margin-left: -15px;
+    transform: rotate(180deg);
+    border-left: 25px solid black;
+    border-radius: 50px;
+}
+.ball {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    margin: 5px 5px 0px;
+}
+.green {
+    background: #53D769;
+}
+.blue {
+    background: #147EFB;
+}
+.red {
+    background: #E74C3C;
+}
+.ball-list li {
+    list-style-type: none;
+    margin: 0 30px 0 0;
+}
+.ball-list li::before {
+    position: absolute;
+    top: 5px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+    margin-left: -20px;
+    content: "";
+    border-radius: 50%;
+}
+.ball-list li:nth-child(1)::before {
+    top: 5px;
+    background: #53D769;
+}
+.ball-list li:nth-child(2)::before {
+    top: 30px;
+    background: #147EFB;
+}
+.ball-list li:last-child::before {
+    top: 53px;
+    background: #E74C3C;
+}
